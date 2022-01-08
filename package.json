@@ -1,0 +1,29 @@
+{
+  "name": "hiconyan-zenn",
+  "version": "1.0.0",
+  "description": "https://github.com/hico-horiuchi/hiconyan-zenn",
+  "main": "index.js",
+  "scripts": {
+    "lint": "textlint",
+    "lint:fix": "textlint --fix",
+    "new:article": "npx zenn new:article",
+    "new:book": "npx zenn new:book",
+    "preview": "npx zenn preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hico-horiuchi/hiconyan-zenn.git"
+  },
+  "author": "Akihiko Horiuchi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hico-horiuchi/hiconyan-zenn/issues"
+  },
+  "homepage": "https://github.com/hico-horiuchi/hiconyan-zenn#readme",
+  "devDependencies": {
+    "textlint": "^12.1.0",
+    "textlint-rule-preset-ja-spacing": "^2.2.0",
+    "textlint-rule-preset-ja-technical-writing": "^7.0.0",
+    "zenn-cli": "^0.1.100"
+  }
+}

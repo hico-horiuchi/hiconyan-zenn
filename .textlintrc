@@ -1,0 +1,28 @@
+{
+  "plugins": {
+    "@textlint/markdown": {
+      "extensions": [".md"]
+    }
+  },
+  "rules": {
+    "preset-ja-spacing": {
+      "ja-space-around-code": {
+        "after": true,
+        "before": true
+      },
+      "ja-space-between-half-and-full-width": {
+        "exceptPunctuation": true,
+        "space": "always"
+      }
+    },
+    "preset-ja-technical-writing": {
+      "ja-no-mixed-period": {
+        "allowPeriodMarks": [":"]
+      },
+      "no-doubled-joshi": {
+        "strict": false,
+        "allow": ["か"]
+      }
+    }
+  }
+}
