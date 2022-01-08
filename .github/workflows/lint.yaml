@@ -5,7 +5,7 @@ on:
       - opened
       - synchronize
 jobs:
-  lint:
+  textlint:
     runs-on: ubuntu-latest
     steps:
       # https://github.com/actions/checkout
@@ -16,4 +16,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           level: warning
           reporter: github-pr-review
-          textlint_flags: "articles/**"
+          textlint_flags: 'articles/**'
