@@ -4,8 +4,8 @@
   "description": "https://github.com/hico-horiuchi/hiconyan-zenn",
   "main": "index.js",
   "scripts": {
-    "lint": "textlint",
-    "lint:fix": "textlint --fix",
+    "lint": "textlint articles/**",
+    "lint:fix": "textlint --fix articles/**",
     "new:article": "npx zenn new:article",
     "new:book": "npx zenn new:book",
     "preview": "npx zenn preview"
@@ -21,9 +21,9 @@
   },
   "homepage": "https://github.com/hico-horiuchi/hiconyan-zenn#readme",
   "devDependencies": {
-    "textlint": "^12.1.0",
-    "textlint-rule-preset-ja-spacing": "^2.2.0",
-    "textlint-rule-preset-ja-technical-writing": "^7.0.0",
-    "zenn-cli": "^0.1.101"
+    "textlint": "^13.4.1",
+    "textlint-rule-preset-ja-spacing": "^2.3.0",
+    "textlint-rule-preset-ja-technical-writing": "^9.0.0",
+    "zenn-cli": "^0.1.150"
   }
 }
