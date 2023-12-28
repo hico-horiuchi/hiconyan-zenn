@@ -1,7 +1,7 @@
 {
   "name": "hiconyan-zenn",
   "version": "1.0.0",
-  "description": "https://github.com/hico-horiuchi/hiconyan-zenn",
+  "description": "https://zenn.dev/hiconyan",
   "main": "index.js",
   "scripts": {
     "lint": "textlint articles/**",
@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/hico-horiuchi/hiconyan-zenn.git"
   },
-  "author": "Akihiko Horiuchi",
+  "author": "HORIUCHI Akihiko",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/hico-horiuchi/hiconyan-zenn/issues"
