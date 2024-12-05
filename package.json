@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/hico-horiuchi/hiconyan-zenn#readme",
   "devDependencies": {
-    "textlint": "~14",
+    "textlint": "~14.4",
     "textlint-rule-preset-ja-spacing": "~2.4",
     "textlint-rule-preset-ja-technical-writing": "~10.0",
     "zenn-cli": "~0.1"
