@@ -8,10 +8,10 @@ jobs:
   textlint:
     runs-on: ubuntu-latest
     steps:
-      # https://github.com/actions/checkout
-      - uses: actions/checkout@v4
-      # https://github.com/tsuyoshicho/action-textlint
-      - uses: tsuyoshicho/action-textlint@v3
+      # https://github.com/actions/checkout/releases/tag/v4.2.2
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      # https://github.com/tsuyoshicho/action-textlint/releases/tag/v3.10.0
+      - uses: tsuyoshicho/action-textlint@acab4b76cd713a83a69c4ad806ae9e837e0de009
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           level: warning
@@ -20,10 +20,10 @@ jobs:
   security_check:
     runs-on: ubuntu-latest
     steps:
-      # https://github.com/actions/checkout
-      - uses: actions/checkout@v4
-      # https://github.com/aquasecurity/trivy-action
-      - uses: aquasecurity/trivy-action@0.28.0
+      # https://github.com/actions/checkout/releases/tag/v4.2.2
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      # https://github.com/aquasecurity/trivy-action/releases/tag/0.28.0
+      - uses: aquasecurity/trivy-action@915b19bbe73b92a6cf82a1bc12b087c9a19a5fe2
         with:
           scan-ref: package-lock.json
           scan-type: fs
