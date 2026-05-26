@@ -10,6 +10,8 @@ jobs:
     steps:
       # https://github.com/actions/checkout/releases/tag/v4.2.2
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
       # https://github.com/tsuyoshicho/action-textlint/releases/tag/v3.10.0
       - uses: tsuyoshicho/action-textlint@acab4b76cd713a83a69c4ad806ae9e837e0de009
         with:
@@ -22,6 +24,8 @@ jobs:
     steps:
       # https://github.com/actions/checkout/releases/tag/v4.2.2
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
       # https://github.com/aquasecurity/trivy-action/releases/tag/0.35.0
       - uses: aquasecurity/trivy-action@57a97c7e7821a5776cebc9bb87c984fa69cba8f12
         with:
